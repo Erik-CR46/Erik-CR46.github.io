@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+
+  nav {
+    background-color: #800080;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .principal {
+    display: flex;
+    min-height: calc(100vh - 60px);
+    flex-grow: 1; 
+  }
+  .redes {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .redes img {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .redes h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .redes a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #800080;
+  }
+  
+  .redes a:hover {
+    text-decoration: underline;
+  }
+
+  .proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bloque {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.imagenes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.imagenes img {
+    width: 250px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.explicacion {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    font-size: 1.2rem;
+}
+
+.flecha {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+}
+.titulo {
+    color: #800080;
+}
+
